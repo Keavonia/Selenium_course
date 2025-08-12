@@ -26,6 +26,7 @@ try:
 
     input1 = browser.find_element(By.CSS_SELECTOR, "#answer")
     input1.send_keys(y)
+    time.sleep(1)
 
     button = browser.find_element(By.CSS_SELECTOR, "#solve")
     button.click()
